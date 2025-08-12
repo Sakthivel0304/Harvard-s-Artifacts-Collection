@@ -239,7 +239,6 @@ elif choice == "SQL Queries":
     index=None,
     placeholder="Select a query")
 
-# Run the query
     if selected_description:
         sql_query = query_dict[selected_description]
         st.write(f"**Executing:** {sql_query}")
